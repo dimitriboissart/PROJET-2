@@ -1,0 +1,26 @@
+.logo
+{
+    width: 120px;
+    height: 59px;
+}
+
+.firstheader
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lien1
+{
+    display: inline-block;
+    width: 154px;
+    height: 58px;
+}
+
+.lien2
+{
+    display: inline-block;
+    width: 200px;
+    height: 58px;
+}
+

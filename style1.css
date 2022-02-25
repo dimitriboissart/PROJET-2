@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'raleway';
+    src: url(raleway/static/Raleway-Light.ttf)  ;
+}
+
+body
+{
+    font-family: 'raleway', 'sans-serif';
+}
+
+
+

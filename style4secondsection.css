@@ -1,0 +1,171 @@
+.secondsection
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.container1
+{
+    background: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 1000px;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+
+
+.container2
+{
+    background: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 400px;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+
+.etoile
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+    /* container1 content 1 + 2 + cards 1 */
+.content1
+{
+    background: white;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content2
+    {
+    background: white;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.card1
+{
+    width: 30px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+
+
+    /* container 2  content 3+4 souscards2 */
+.content3
+{
+    width: 450px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content4
+{
+    display: flex;
+    background: white;
+    width: 350px;
+    height: 50px;
+}
+
+.souscard2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 2px;
+    box-sizing: border-box;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+
+
+        /* IMAGES */
+    /* container1 _ images */ 
+.cannebiere
+{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.hotelduport
+{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.hotelmouettes
+{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.hotelmer
+{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.auberge
+{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.hotelamina
+{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+
+
+    /* container2 _ images */ 
+.hotelsoleil
+{
+    width: 100px;
+    height: 108px;
+    object-fit: cover;
+}
+
+.hotes
+{
+    width: 100px;
+    height: 108px;
+    object-fit: cover;
+}
+
+.hotelbb
+{
+    width: 100px;
+    height: 108px;
+    object-fit: cover;
+}
+

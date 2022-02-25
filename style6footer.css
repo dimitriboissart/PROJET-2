@@ -1,0 +1,69 @@
+footer
+{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstfooter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.secondfooter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdfooter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.longchamp
+{
+    width: 230px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.notredame
+{
+    width: 230px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.calanques
+{
+    width: 230px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.frioul
+{
+    width: 230px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.pomegue
+{
+    width: 230px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.vieuxport
+{
+    width: 230px;
+    height: 360px;
+    object-fit: cover;
+}

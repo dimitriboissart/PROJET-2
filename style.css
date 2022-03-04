@@ -1,0 +1,418 @@
+@font-face {
+    font-family: 'raleway';
+    src: url(raleway/static/Raleway-Medium.ttf)  ;
+}
+
+    /* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.lien1nav{
+    padding-right: 60px;
+    text-decoration: none;
+}
+
+.lien2nav{
+    padding-right: 50px;
+    text-decoration: none;
+}
+    /* fin navigation */
+
+    /* debut header */
+header{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+.formulaire{
+    display: flex;
+}
+
+.map{
+    background-color: #f2f2f2;
+    padding: 13px 14px 13px 18px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.recherche{
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marseille{
+    font-weight: bold;
+    border: none;
+    padding-left: 10px;
+}
+
+.filtres{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.button{
+    margin-left: 40px;
+    padding-right: 20px;
+    border-radius: 100px;
+    border: solid 3px #f2f2f2;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+    color: #0065fc;
+    background-color: #DEEBFF;
+    padding: 18.5px 16.5px 18.5px 16.5px;
+    border-radius: 100%;
+}
+
+.infologement{
+    display: flex;
+    align-items: center;
+}
+
+.fa-circle-info{
+    background-color: #0065fc;
+    color: white;
+    border-radius: 100%;
+    border: solid 2px #f2f2f2;
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+    /* fin header */
+
+    /* body */
+body{
+    font-family: 'raleway', 'sans-serif';
+}
+    /* fin boy */
+
+    /* first section _ container12 + content1234 + card1 + souscard123 */
+.firstsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    /* container 1 + 2 */
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    width: 880px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px 10px 30px 10px;
+}
+
+    /* container1 content 1 + 2 + card1 */
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
+}
+
+.card1{
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.hebergements{
+    padding-left: 30px;
+}
+
+.afficherplus{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+    /* container 2  content 3 + 4 souscard123 */
+
+/* content3 populaire + fleche */
+.content3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.fleche{
+    font-size: x-large;
+    padding-top: 22px;
+}
+/* fin content 3 */
+
+    /* content4 + souscard123 */
+.content4{
+    display: flex;
+    background-color: white;
+    margin: 0 20px 0 20px;
+    border-radius: 20px;
+    width: 416.35px;
+    height: 118px;
+}
+
+.souscard3{
+    margin-right: 70px;
+}
+
+
+    /* images container 1 _ content 1 */
+.cannebiere{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.hotelduport{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.hotelmouettes{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+    /* images container 1 _ content 2 */
+.hotelmer{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.auberge{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.hotelamina{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+    /* images container 2 _ content 4 */
+.hotelsoleil{
+    width: 100px;
+    height: 108px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.hotes{
+    width: 100px;
+    height: 108px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.hotelbb{
+    width: 100px;
+    height: 108px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+    /* zone article _ Activités à Marseille */
+.activites{
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding-bottom: 40px;
+}
+
+.secondact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    /* css cardarticle */
+.cardarticle{
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px 5px rgb(228 227 227);
+    text-align: center;
+}
+
+    /* Article _ images */
+.vieuxport{
+    width: 230px;
+    height: 360px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.pomegue{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.frioul{
+    width: 300px;
+    height: 110px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.calanques{
+    width: 230px;
+    height: 360px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.notredame{
+    width: 300px;
+    height: 110px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.longchamp{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+    /*fin Article _ images*/
+
+    /* footer */
+footer{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 180px;
+    font-size: small;
+}
+
+.firstfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.secondfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 20px;
+}
+
+.thirdfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-right: 400px;
+    padding-top: 20px;
+}
+
+.lienfooter{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px
+}

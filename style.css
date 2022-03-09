@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'raleway';
+    src: url(raleway/static/Raleway-Medium.ttf)  ;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+    /* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+nav img {
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 20px;
+}
+
+ul li {
+    padding-right: 60px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+    /* fin navigation */
+
+    /* debut header */
+header {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+form {
+    display: flex;
+}
+
+.fa-location-dot {
+    background-color: #f2f2f2;
+    padding: 13px 14px 13px 18px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.recherche {
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marseille {
+    font-weight: bold;
+    border: none;
+    padding-left: 10px;
+}
+
+.filtres {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.filtres a {
+    text-decoration: none;
+    color: black;
+    border: solid 3px #f2f2f2;
+    border-radius: 60px;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+    color: #0065fc;
+    background-color: #DEEBFF;
+    padding: 18.5px 16.5px 18.5px 16.5px;
+    border-radius: 100%;
+}
+
+.infologement {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fa-circle-info {
+    background-color: #0065fc;
+    color: white;
+    border-radius: 100%;
+    border: solid 2px #f2f2f2;
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+    /* fin header */
+
+    /* body */
+body {
+    font-family: 'raleway', 'sans-serif';
+}
+    /* fin body */
+
+    /* article container1 + 2 + content 3 4 */
+.containers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.containers h2 {
+    padding-left: 40px;
+}
+
+.container1 figcaption {
+    padding-left: 10px;
+}
+
+.afficherplus {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.fa-star {
+    color: #0065fc;
+}
+
+.grey {
+    color: #d8d6d6;
+}
+
+    /* container 1 + 2 */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    padding: 0 20px 20px 0;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+    /* container1 section + figure */
+.container1 section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 figure {
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 220px;
+    border: solid white 4px;
+}
+
+
+    /* container2 section + figure */
+
+/* container2 populaire + fleche */
+.container2 section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-chart-line {
+    font-size: x-large;
+    padding-top: 26px;
+    padding-right: 6px;
+}
+
+.container2 figure {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+    border: solid white 4px;
+}
+
+.container2 figcaption {
+    margin-left: 40px;
+}
+
+.container2 figure .fa-solid {
+    padding-top: 30px;
+}
+/* fin container2 section + figure */
+
+    /* images container 1 */
+.container1 img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+    /* images container 2 */
+.container2 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+    /* Article Activités  */
+.activitesM {
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.activitesM h2 {
+    padding-left: 40px;
+}
+
+.activitesM section {
+    display: flex;
+}
+
+.secondact {
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+}
+
+.activitesM figure {
+    box-shadow: 0 1px 2px 1px rgb(207, 201, 201);
+    border-radius: 22px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+    /* Article activités _ images */
+.vieuxport {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.pomegue {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.frioul {
+    width: 300px;
+    height: 110px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.calanques {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.notredame {
+    width: 300px;
+    height: 110px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.longchamp {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+    /*fin Article _ images*/
+
+
+    /* footer */
+footer {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 400px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    height: 180px;
+    font-size: medium;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+    /* fin footer */
+
+
+    /* Media Queries */

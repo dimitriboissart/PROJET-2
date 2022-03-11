@@ -22,6 +22,7 @@ nav img {
     padding-top: 20px;
 }
 
+
 ul {
     list-style-type: none;
     display: flex;
@@ -34,6 +35,14 @@ ul li {
 
 li a {
     text-decoration: none;
+}
+
+li a:visited {
+    color: black;
+}
+
+li a:hover {
+    color:#0065fc;
 }
 
     /* fin navigation */
@@ -68,12 +77,14 @@ form {
     border: none;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .marseille {
     font-weight: bold;
     border: none;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .filtres {
@@ -91,6 +102,12 @@ form {
     padding-right: 20px;
     margin-left: 30px;
     margin-right: 40px;
+}
+
+.filtres a:hover {
+    color: #0065fc;
+    background-color: aliceblue;
+    outline: solid;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
@@ -342,7 +359,245 @@ footer a {
     text-decoration: none;
     padding-bottom: 10px;
 }
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    color: #0065fc;
+}
     /* fin footer */
 
 
+
     /* Media Queries */
+
+@media screen and (max-width: 1098px) {
+    .filtres {
+        display: inline-block;
+    }
+
+    .filtres a {
+        display: inline-block;
+    }
+}
+
+
+
+/* Format tablette 992px */
+@media screen and (max-width: 992px) {
+
+/* Filtre  */
+    .filtres {
+        display: inline-block;
+    }
+
+    .filtres a {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+/* Fin filtre */
+
+    /* Article _ Les plus populaires + Hébergements */
+    .containers {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .container1 {
+        max-width: 99%;
+    }
+    
+    .container2 {
+        width: 97%;
+        margin-bottom: 10px;
+    }
+
+    .container2 h2 {
+        font-size:  xxx-large;
+    }
+    
+    .container2 .fa-chart-line {
+        font-size: xxx-large;
+        padding-right: 3%;
+        margin-top: 2%;
+    }
+    
+    .container2 figure {
+        margin-left: 20%;
+        padding-right: 25%;
+        width: 350px;
+        height: 190px;
+    }
+    
+    .container2 img {
+        object-fit: cover;
+        width: 180px;
+        height: 190px;
+    }
+/* Fin Article _ Les plus populaires + Hébergements */
+
+    /* Article Activités à Marseille */
+    .activitesM h2 {
+        padding-left: 20%;
+        font-size:  xxx-large;
+        padding-top: 20px;
+    }
+    
+    .activitesM section {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+    }
+    
+    .activitesM .secondact {
+        width: 880px;
+        margin-left: 1.1px;
+    }
+    
+    .activitesM img {
+        object-fit: cover;
+        width: 100%;
+        height: 360px;
+    }
+/* Fin Article Activités à Marseille */
+
+    /* Footer */
+    footer {
+        font-size: 15px;
+        padding-left: 6%;
+        padding-right: 10%;
+    }
+/* Fin Footer */
+}
+
+
+
+/* Format téléphone 768px */
+@media screen and (max-width: 768px) {
+    /* Début Body */
+    body {
+        margin-left: -10px;
+    }
+    /* Fin Body */
+
+    /* début Nav */
+    nav {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #F2F2F2 solid 3px;
+    }
+    
+    nav img {
+        padding-left: 100px;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav a:active {
+        padding-bottom: 15px;
+        border-bottom: #0065fc solid 3px;
+        color: blue;
+    }
+    /* Fin Nav */
+
+    /* Début Article Hébergement */
+    
+    /* Les plus populaires */
+    .container2 {
+        border-radius: 0px;
+    }
+    
+    .container2 h2 { 
+        font-size: 20px;
+        margin-left: -10px;
+        padding-top: 10px;
+    }
+    
+    .container2 .fa-chart-line {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    
+    .container2 figure {
+        width: 260px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    
+    .container2 img {
+        object-fit: cover;
+        width: 120%;
+        height: 100%;
+    }
+    
+    .container2 figcaption h3 {
+        width: 150px;
+        margin-right: -60px;
+    }
+    /* Fin Les plus populaires */
+
+    /* Début Hébergements */
+    .container1 {
+        width: 500px;
+        border-radius: 0px;
+        margin-left: 2%;
+        padding-right: 2%;
+        background-color: white;
+    }
+    
+    .container1 section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container1 figure {
+        box-shadow: #f2f2f2 2px 2px 4px 4px;
+        margin-left: 10px;
+        width: 95%;
+        }
+    /* Fin Hébergements */
+    /* Fin Article Hébergements */
+
+    /* Début Activités */
+    .activitesM {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
+    .activitesM h2 {
+        font-size: x-large;
+        padding-left: 10px;
+    }
+
+    .activitesM figure {
+        margin-left: -4px;
+        width: 105%;
+        height: 170px;
+    }
+    
+    .activitesM img {
+        height: 70%;
+    }
+    
+    .activitesM .secondact {
+        width: auto;
+        height: auto;
+    }
+    /* Fin Activités */
+
+    /* Début Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: auto;
+    }
+    /* Fin Footer */
+}
